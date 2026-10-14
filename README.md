@@ -20,23 +20,6 @@
 ## Вимоги
 
 - Android 7.0 (API 24) або новіший.
-- Для збирання: Android Studio з Android SDK 35 і JDK 17.
-
-## Запуск і збирання
-
-Відкрий проєкт в Android Studio та дочекайся завершення Gradle Sync. Або з кореневої теки проєкту виконай у PowerShell:
-
-```powershell
-.\gradlew.bat assembleDebug
-```
-
-Debug APK буде створено за шляхом `app\build\outputs\apk\debug\app-debug.apk`. Для публікації підготуй підписану release-збірку; debug APK не є релізним артефактом.
-
-Запуск модульних тестів:
-
-```powershell
-.\gradlew.bat testDebugUnitTest
-```
 
 ## Дозволи Android
 
@@ -48,4 +31,4 @@ Kotlin, Android SDK, Room, AndroidX, Material Components, Navigation, WorkManage
 
 ## Реліз
 
-Запланована початкова версія — **1.0** (тег `v1.0`). Опис релізу підготовлено у [`RELEASE_NOTES.md`](RELEASE_NOTES.md). Перед публікацією релізу додай підписаний APK до GitHub Release.
+Запланована початкова версія — **1.0** (тег `v1.0`).
